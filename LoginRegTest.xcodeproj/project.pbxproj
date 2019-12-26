@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E03AA8023B3EBB3006C8E2B /* RegPageMoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E03AA7F23B3EBB3006C8E2B /* RegPageMoreInfoViewController.swift */; };
+		4E03AA8223B414E9006C8E2B /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E03AA8123B414E9006C8E2B /* LoginPageViewController.swift */; };
+		4E03AA8423B441E7006C8E2B /* RegPagePhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E03AA8323B441E7006C8E2B /* RegPagePhoneNumberViewController.swift */; };
+		4E03AA8623B44775006C8E2B /* RegPageSubmitCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E03AA8523B44775006C8E2B /* RegPageSubmitCodeViewController.swift */; };
 		4E63D60B23AA448700CA5E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E63D60A23AA448700CA5E3A /* AppDelegate.swift */; };
 		4E63D60D23AA448700CA5E3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E63D60C23AA448700CA5E3A /* ViewController.swift */; };
 		4E63D61023AA448800CA5E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E63D60E23AA448800CA5E3A /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E03AA7F23B3EBB3006C8E2B /* RegPageMoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegPageMoreInfoViewController.swift; sourceTree = "<group>"; };
+		4E03AA8123B414E9006C8E2B /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		4E03AA8323B441E7006C8E2B /* RegPagePhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegPagePhoneNumberViewController.swift; sourceTree = "<group>"; };
+		4E03AA8523B44775006C8E2B /* RegPageSubmitCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegPageSubmitCodeViewController.swift; sourceTree = "<group>"; };
 		4E63D60723AA448700CA5E3A /* LoginRegTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginRegTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E63D60A23AA448700CA5E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E63D60C23AA448700CA5E3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 				4E63D61123AA44C900CA5E3A /* Assets.xcassets */,
 				4E63D61323AA44C900CA5E3A /* LaunchScreen.storyboard */,
 				4E63D61623AA44C900CA5E3A /* Info.plist */,
+				4E03AA7F23B3EBB3006C8E2B /* RegPageMoreInfoViewController.swift */,
+				4E03AA8123B414E9006C8E2B /* LoginPageViewController.swift */,
+				4E03AA8323B441E7006C8E2B /* RegPagePhoneNumberViewController.swift */,
+				4E03AA8523B44775006C8E2B /* RegPageSubmitCodeViewController.swift */,
 			);
 			path = LoginRegTest;
 			sourceTree = "<group>";
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E03AA8423B441E7006C8E2B /* RegPagePhoneNumberViewController.swift in Sources */,
 				4E63D60D23AA448700CA5E3A /* ViewController.swift in Sources */,
+				4E03AA8223B414E9006C8E2B /* LoginPageViewController.swift in Sources */,
+				4E03AA8623B44775006C8E2B /* RegPageSubmitCodeViewController.swift in Sources */,
 				4E63D60B23AA448700CA5E3A /* AppDelegate.swift in Sources */,
+				4E03AA8023B3EBB3006C8E2B /* RegPageMoreInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

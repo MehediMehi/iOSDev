@@ -10,22 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var userNameField: UITextField!
-    @IBOutlet weak var userPasswordField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func signInButtonClick(_ sender: Any) {
-        if userNameField.text == "Mehedi"{
-            print("user name matched")
-            if userPasswordField.text == "1234" {
-                print("password matched")
-                
-            }
+    override func viewDidAppear(_ animated: Bool) {
+        // Check if user is already logged in
+        let isUserLoggedIn = UserDefaults.standard.bool(forKey: "isUserLoggedIn");
+        print(isUserLoggedIn);
+        if(!isUserLoggedIn){
+            print("Hit!!")
+            self.performSegue(withIdentifier: "loginPageView", sender: self);
         }
     }
     
+    @IBAction func signOutButtonTapped(_ sender: Any) {
+        // Set back to false to represent logged out
+        UserDefaults.standard.set(false, forKey: "isUserLoggedIn");
+        // Sync to save changes
+        UserDefaults.standard.synchronize();
+        print("Signed out");
+        self.performSegue(withIdentifier: "loginPageView", sender: self);
+    }
 }
 
